@@ -57,3 +57,21 @@ cucumber -t <tag>
 
 Rodando os testes em ambiente específico: 
 cucumber -p <env>
+
+
+
+Criar e atualizar o arquivo "credentials.rb" em support
+----------------------------------------------------------------------------
+
+#coding: utf-8
+
+CREDENTIALS = {
+  userX: {
+    email: '<email_valido>',
+    password: '<senha_valida>'
+  },
+  userY: {
+    email: 'email_um@gmail.com',
+    password: '123456'
+  }
+}
