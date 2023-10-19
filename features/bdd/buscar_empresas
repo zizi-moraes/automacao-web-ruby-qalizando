@@ -1,0 +1,21 @@
+#language: pt
+
+Funcionalidade: Busca de empresas
+Para pesquisar por empresas cadastradas 
+O usuário premium do Linkedin
+Deseja encontrar empresas cadastradas
+
+Contexto: 
+  Dado que o usuário esteja logado
+
+Cenário: Procurar por uma pequena empresa
+Quando ele pesquisar pelo CNPJ tipo MEI
+Então as informacoes da empresa serao exibidas
+
+Cenário: Procurar por uma grande empresa
+Quando ele pesquisar pelo CNPJ tipo SA
+Então as informacoes da empresa serao exibidas
+
+Cenário: Procurar por uma filial
+Quando ele pesquisar pelo CNPJ da filial
+Então as informacoes da filial serao exibidas
