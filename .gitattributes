@@ -1,2 +1,2 @@
-# Linguagem Ruby
 # linguist-language: Ruby
+*.rb linguist-language=Ruby
